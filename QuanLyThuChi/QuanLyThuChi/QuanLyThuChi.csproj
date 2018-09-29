@@ -114,6 +114,51 @@
   <ItemGroup>
     <None Include="Resources\options_settings_folder_tools-512.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User-Group-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secrecy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Log-Off-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notes-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-folder-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phanquyen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saoluu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huongdansudung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dsthuchi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baocao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkitiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkitaikhoan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkithuchi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dkithu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vi.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

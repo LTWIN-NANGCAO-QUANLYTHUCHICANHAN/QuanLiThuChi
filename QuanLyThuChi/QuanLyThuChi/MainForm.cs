@@ -14,10 +14,10 @@ using DevExpress.UserSkins;
 using DevExpress.Skins;
 namespace QuanLyThuChi
 {
-    
+
     public partial class MainForm : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        
+
         public MainForm()
         {
             InitializeComponent();
@@ -79,5 +79,7 @@ namespace QuanLyThuChi
         {
             DevExpress.UserSkins.BonusSkins.Register();
         }
+
+
     }
 }

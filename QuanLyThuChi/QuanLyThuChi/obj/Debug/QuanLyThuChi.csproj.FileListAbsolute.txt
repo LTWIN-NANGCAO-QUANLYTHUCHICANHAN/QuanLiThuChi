@@ -33,3 +33,15 @@ F:\DAMH_LTWNC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe.licenses
 F:\DAMH_LTWNC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
 F:\DAMH_LTWNC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
 F:\DAMH_LTWNC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.MainForm.resources
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe.config
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.pdb
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csprojResolveAssemblyReference.cache
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_CauHinh.resources
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.LogIn.resources
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.MainForm.resources
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Properties.Resources.resources
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.GenerateResource.Cache
+E:\WIN NC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe.licenses
