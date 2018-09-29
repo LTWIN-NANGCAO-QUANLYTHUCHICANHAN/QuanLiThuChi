@@ -21,16 +21,12 @@ namespace QuanLyThuChi
         public MainForm()
         {
             InitializeComponent();
-            gridControl.DataSource = GetDataSource();
+           
             BindingList<Customer> dataSource = GetDataSource();
-            gridControl.DataSource = dataSource;
             bsiRecordsCount.Caption = "RECORDS : " + dataSource.Count;
 
         }
-        void bbiPrintPreview_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            gridControl.ShowRibbonPrintPreview();
-        }
+   
         public BindingList<Customer> GetDataSource()
         {
             BindingList<Customer> result = new BindingList<Customer>();
@@ -78,6 +74,13 @@ namespace QuanLyThuChi
         private void MainForm_Load(object sender, EventArgs e)
         {
             DevExpress.UserSkins.BonusSkins.Register();
+        }
+
+        private void btnphieuthu_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            XtraForm1 f = new XtraForm1();
+            f.MdiParent = this;
+            f.Show();
         }
 
 
