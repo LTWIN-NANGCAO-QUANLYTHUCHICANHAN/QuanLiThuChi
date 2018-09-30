@@ -213,9 +213,59 @@ namespace QuanLyThuChi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Button_Add_icon {
+            get {
+                object obj = ResourceManager.GetObject("Button-Add-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_Close_icon {
+            get {
+                object obj = ResourceManager.GetObject("Button-Close-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Button_Log_Off_icon {
             get {
                 object obj = ResourceManager.GetObject("Button-Log-Off-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Button_Log_Off_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Button-Log-Off-icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Clear_icon {
+            get {
+                object obj = ResourceManager.GetObject("Clear-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Close_2_icon {
+            get {
+                object obj = ResourceManager.GetObject("Close-2-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -306,6 +356,16 @@ namespace QuanLyThuChi.Properties {
         internal static System.Drawing.Bitmap dsthuchi {
             get {
                 object obj = ResourceManager.GetObject("dsthuchi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_validated_icon {
+            get {
+                object obj = ResourceManager.GetObject("edit-validated-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,6 +603,16 @@ namespace QuanLyThuChi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Save_as_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Save-as-icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap save1 {
             get {
                 object obj = ResourceManager.GetObject("save1", resourceCulture);
@@ -566,6 +636,16 @@ namespace QuanLyThuChi.Properties {
         internal static System.Drawing.Bitmap search {
             get {
                 object obj = ResourceManager.GetObject("search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_minus_icon {
+            get {
+                object obj = ResourceManager.GetObject("search-minus-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

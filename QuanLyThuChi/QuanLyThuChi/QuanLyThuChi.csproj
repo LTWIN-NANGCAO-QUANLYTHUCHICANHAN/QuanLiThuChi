@@ -61,6 +61,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDkKhoanChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDkKhoanChi.designer.cs">
+      <DependentUpon>frmDkKhoanChi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_CauHinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,12 @@
     </Compile>
     <Compile Include="frm_DangKyKhoanThu.designer.cs">
       <DependentUpon>frm_DangKyKhoanThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_girddkkhoanchi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_girddkkhoanchi.designer.cs">
+      <DependentUpon>frm_girddkkhoanchi.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_LapPhieuThu.cs">
       <SubType>Form</SubType>
@@ -110,11 +122,17 @@
     <Compile Include="XtraForm1.Designer.cs">
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmDkKhoanChi.resx">
+      <DependentUpon>frmDkKhoanChi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_CauHinh.resx">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_DangKyKhoanThu.resx">
       <DependentUpon>frm_DangKyKhoanThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_girddkkhoanchi.resx">
+      <DependentUpon>frm_girddkkhoanchi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_LapPhieuThu.resx">
       <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
@@ -290,6 +308,11 @@
     <None Include="Resources\010_x-5121.png" />
     <None Include="Resources\010_x-5122.png" />
     <None Include="Resources\010_trash-2-128.png" />
+    <None Include="Resources\Button-Add-icon.png" />
+    <None Include="Resources\Button-Close-icon.png" />
+    <None Include="Resources\Button-Log-Off-icon %281%29.png" />
+    <None Include="Resources\Clear-icon.png" />
+    <None Include="Resources\Close-2-icon.png" />
     <Content Include="Resources\delete.png" />
     <None Include="Resources\search1.png" />
     <None Include="Resources\them1.png" />
@@ -300,6 +323,9 @@
     <None Include="Resources\save2.png" />
     <None Include="Resources\save_.png" />
     <None Include="Resources\error-512.png" />
+    <None Include="Resources\edit-validated-icon.png" />
+    <None Include="Resources\Save-as-icon %281%29.png" />
+    <None Include="Resources\search-minus-icon.png" />
     <Content Include="Resources\search.png" />
     <Content Include="Resources\Technical_Support-512 %281%29.png" />
     <Content Include="Resources\them.png" />

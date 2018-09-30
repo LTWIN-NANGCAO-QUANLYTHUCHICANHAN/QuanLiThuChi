@@ -438,7 +438,7 @@
             // 
             this.barButtonItem13.Caption = "Đăng ký tiền tệ";
             this.barButtonItem13.Id = 55;
-            this.barButtonItem13.ImageOptions.LargeImage = global::QuanLyThuChi.Properties.Resources.Money_512;
+            this.barButtonItem13.ImageOptions.LargeImage = global::QuanLyThuChi.Properties.Resources.search_minus_icon;
             this.barButtonItem13.LargeWidth = 80;
             this.barButtonItem13.Name = "barButtonItem13";
             // 

@@ -90,3 +90,6 @@ E:\STUDY\DH_Nam4\LT_Win_NC\TH_LTWin_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanL
 E:\STUDY\DH_Nam4\LT_Win_NC\TH_LTWin_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe.licenses
 E:\STUDY\DH_Nam4\LT_Win_NC\TH_LTWin_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Page_DKkhoanthu.resources
 E:\STUDY\DH_Nam4\LT_Win_NC\TH_LTWin_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.frm_DangKyKhoanThu.resources
+E:\WIN NC\New folder\New folder (3)\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe.config
+E:\WIN NC\New folder\New folder (3)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
+E:\WIN NC\New folder\New folder (3)\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
