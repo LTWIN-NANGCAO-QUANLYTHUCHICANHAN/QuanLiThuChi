@@ -58,3 +58,6 @@ E:\STUDY\DH_Nam4\LT_Win_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.Prop
 E:\STUDY\DH_Nam4\LT_Win_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.csproj.GenerateResource.Cache
 E:\STUDY\DH_Nam4\LT_Win_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe.licenses
 E:\STUDY\DH_Nam4\LT_Win_NC\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.XtraForm1.resources
+F:\DAMH_LTWNC\New folder\QuanLyThuChi\QuanLyThuChi\bin\Debug\QuanLyThuChi.exe.config
+F:\DAMH_LTWNC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.exe
+F:\DAMH_LTWNC\New folder\QuanLyThuChi\QuanLyThuChi\obj\Debug\QuanLyThuChi.pdb
