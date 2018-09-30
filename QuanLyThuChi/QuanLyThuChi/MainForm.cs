@@ -78,7 +78,7 @@ namespace QuanLyThuChi
 
         private void btnphieuthu_ItemClick(object sender, ItemClickEventArgs e)
         {
-            XtraForm1 f = new XtraForm1();
+            frm_PhieuThu f = new frm_PhieuThu();
             f.MdiParent = this;
             f.Show();
         }
