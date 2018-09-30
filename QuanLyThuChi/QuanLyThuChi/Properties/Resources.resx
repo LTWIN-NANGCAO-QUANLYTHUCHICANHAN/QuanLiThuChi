@@ -118,11 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="money-bag-512 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\money-bag-512 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dkitiente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dkitiente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Artboard_1-8-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Artboard_1-8-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Door-Exit-Sign-Out-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Door-Exit-Sign-Out-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="phanquyen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\phanquyen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_Information_31216" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_Information_31216.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="baocao" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baocao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,6 +145,9 @@
   <data name="039_time_clock_process_clouds_work-512 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\039_time_clock_process_clouds_work-512 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="9_avatar-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9_avatar-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dkithuchi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dkithuchi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +156,9 @@
   </data>
   <data name="secrecy-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\secrecy-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Money-Bag-512 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Money-Bag-512 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Report-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Report-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +172,8 @@
   <data name="saoluu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\saoluu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="huongdansudung" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\huongdansudung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="23-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dkitaikhoan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dkitaikhoan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,20 +184,26 @@
   <data name="Artboard_1-10-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Artboard_1-10-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="key-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="expenses-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\expenses-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="vi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dkitiente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dkitiente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="05_info-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\05_info-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Notes-2-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Notes-2-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="010_x-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\010_x-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Money-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Money-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Finance_saving-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Finance_saving-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,11 +214,26 @@
   <data name="Party_Newyears_Calender-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Party_Newyears_Calender-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Money-Bag-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Money-Bag-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="huongdansudung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\huongdansudung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dkithu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dkithu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="23-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\23-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Line_Icons_Misc_NEW-22-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Line_Icons_Misc_NEW-22-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nguoisudung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nguoisudung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business-15-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-15-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="User-Group-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\User-Group-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +241,7 @@
   <data name="options_settings_folder_tools-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\options_settings_folder_tools-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Money-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Money-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Coin-Hand-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coin-Hand-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

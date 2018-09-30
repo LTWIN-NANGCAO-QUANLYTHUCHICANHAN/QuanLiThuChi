@@ -210,6 +210,45 @@
   <ItemGroup>
     <None Include="Resources\Money-512.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nguoisudung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9_avatar-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Door-Exit-Sign-Out-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-15-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Information_31216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05_info-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line_Icons_Misc_NEW-22-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-Bag-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-Bag-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag-512 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin-Hand-512.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
