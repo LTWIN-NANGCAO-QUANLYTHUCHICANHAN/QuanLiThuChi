@@ -66,12 +66,6 @@
     <Compile Include="frm_CauHinh.Designer.cs">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_LapPhieuThu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_LapPhieuThu.Designer.cs">
-      <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
-    </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,9 +89,6 @@
     </Compile>
     <EmbeddedResource Include="frm_CauHinh.resx">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_LapPhieuThu.resx">
-      <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
