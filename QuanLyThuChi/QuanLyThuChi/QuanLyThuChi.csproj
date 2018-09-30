@@ -37,19 +37,13 @@
     <Reference Include="DevExpress.Images.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -71,12 +65,6 @@
     </Compile>
     <Compile Include="frm_CauHinh.Designer.cs">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm_PhieuThu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_PhieuThu.Designer.cs">
-      <DependentUpon>frm_PhieuThu.cs</DependentUpon>
     </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
@@ -101,9 +89,6 @@
     </Compile>
     <EmbeddedResource Include="frm_CauHinh.resx">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm_PhieuThu.resx">
-      <DependentUpon>frm_PhieuThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
@@ -226,23 +211,43 @@
     <None Include="Resources\Money-512.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\add.png" />
+    <None Include="Resources\nguoisudung.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\add1.png" />
+    <None Include="Resources\9_avatar-512.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\678092-sign-add-512.png" />
+    <None Include="Resources\Door-Exit-Sign-Out-512.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\if_sign-add_299068.png" />
+    <None Include="Resources\business-15-512.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\search.png" />
-    <None Include="Resources\them.png" />
-    <None Include="Resources\delete.png" />
-    <None Include="Resources\Technical_Support-512 %281%29.png" />
-    <Content Include="Resources\Technical_Support-512.png" />
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Information_31216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05_info-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line_Icons_Misc_NEW-22-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-Bag-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-Bag-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag-512 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin-Hand-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
