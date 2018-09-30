@@ -356,6 +356,7 @@
             this.btndkhangmucchi.ImageOptions.LargeImage = global::QuanLyThuChi.Properties.Resources.income;
             this.btndkhangmucchi.LargeWidth = 80;
             this.btndkhangmucchi.Name = "btndkhangmucchi";
+            this.btndkhangmucchi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btndkhangmucchi_ItemClick);
             // 
             // btndkhangmucthu
             // 

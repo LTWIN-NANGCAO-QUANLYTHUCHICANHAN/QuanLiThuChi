@@ -67,6 +67,12 @@
     <Compile Include="frm_CauHinh.Designer.cs">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_DangKyKhoanThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DangKyKhoanThu.designer.cs">
+      <DependentUpon>frm_DangKyKhoanThu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_LapPhieuThu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Page_DKkhoanthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PowerPacks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +113,9 @@
     <EmbeddedResource Include="frm_CauHinh.resx">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DangKyKhoanThu.resx">
+      <DependentUpon>frm_DangKyKhoanThu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_LapPhieuThu.resx">
       <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page_DKkhoanthu.resx">
+      <DependentUpon>Page_DKkhoanthu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -270,6 +285,11 @@
     <None Include="Resources\Coin-Hand-512.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\07_plus-128.png" />
+    <None Include="Resources\062-512.png" />
+    <None Include="Resources\010_x-5121.png" />
+    <None Include="Resources\010_x-5122.png" />
+    <None Include="Resources\010_trash-2-128.png" />
     <Content Include="Resources\delete.png" />
     <None Include="Resources\search1.png" />
     <None Include="Resources\them1.png" />
@@ -278,6 +298,8 @@
     <None Include="Resources\huy.png" />
     <None Include="Resources\save1.png" />
     <None Include="Resources\save2.png" />
+    <None Include="Resources\save_.png" />
+    <None Include="Resources\error-512.png" />
     <Content Include="Resources\search.png" />
     <Content Include="Resources\Technical_Support-512 %281%29.png" />
     <Content Include="Resources\them.png" />

@@ -63,9 +63,39 @@ namespace QuanLyThuChi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _010_trash_2_128 {
+            get {
+                object obj = ResourceManager.GetObject("010_trash-2-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _010_x_512 {
             get {
                 object obj = ResourceManager.GetObject("010_x-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _010_x_5121 {
+            get {
+                object obj = ResourceManager.GetObject("010_x-5121", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _010_x_5122 {
+            get {
+                object obj = ResourceManager.GetObject("010_x-5122", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +126,26 @@ namespace QuanLyThuChi.Properties {
         internal static System.Drawing.Bitmap _05_info_512 {
             get {
                 object obj = ResourceManager.GetObject("05_info-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _062_512 {
+            get {
+                object obj = ResourceManager.GetObject("062-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _07_plus_128 {
+            get {
+                object obj = ResourceManager.GetObject("07_plus-128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -256,6 +306,16 @@ namespace QuanLyThuChi.Properties {
         internal static System.Drawing.Bitmap dsthuchi {
             get {
                 object obj = ResourceManager.GetObject("dsthuchi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap error_512 {
+            get {
+                object obj = ResourceManager.GetObject("error-512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -466,6 +526,16 @@ namespace QuanLyThuChi.Properties {
         internal static System.Drawing.Bitmap save {
             get {
                 object obj = ResourceManager.GetObject("save", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_ {
+            get {
+                object obj = ResourceManager.GetObject("save_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

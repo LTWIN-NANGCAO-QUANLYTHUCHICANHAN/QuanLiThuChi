@@ -83,6 +83,13 @@ namespace QuanLyThuChi
             f.Show();
         }
 
+        private void btndkhangmucchi_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Page_DKkhoanthu pg = new Page_DKkhoanthu();
+            pg.MdiParent = this;
+            pg.Show();
+        }
+
 
     }
 }
