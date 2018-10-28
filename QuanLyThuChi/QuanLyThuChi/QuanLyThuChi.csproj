@@ -34,7 +34,12 @@
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Scheduler.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.Scheduler.Win.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.Win.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Images.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Persistent.Base.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -42,6 +47,8 @@
     <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -55,17 +62,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmDkKhoanChi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDkKhoanChi.designer.cs">
       <DependentUpon>frmDkKhoanChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoiMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoiMK.Designer.cs">
+      <DependentUpon>frmDoiMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQL_NguoiDung_NhomNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQL_NguoiDung_NhomNguoiDung.Designer.cs">
+      <DependentUpon>frmQL_NguoiDung_NhomNguoiDung.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_CauHinh.cs">
       <SubType>Form</SubType>
@@ -85,17 +98,38 @@
     <Compile Include="frm_girddkkhoanchi.designer.cs">
       <DependentUpon>frm_girddkkhoanchi.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_LapPhieuChi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_LapPhieuChi.Designer.cs">
+      <DependentUpon>frm_LapPhieuChi.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_LapPhieuThu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_LapPhieuThu.designer.cs">
       <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_PhanQuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PhanQuyen.Designer.cs">
+      <DependentUpon>frm_PhanQuyen.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_PhieuThu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_PhieuThu.designer.cs">
       <DependentUpon>frm_PhieuThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_QL_NguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_QL_NhomNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_QL_NhomNguoiDung.Designer.cs">
+      <DependentUpon>frm_QL_NhomNguoiDung.cs</DependentUpon>
     </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
@@ -116,14 +150,29 @@
     <Compile Include="PowerPacks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XtraForm1.cs">
+    <Compile Include="frm_PhieuChi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XtraForm1.Designer.cs">
-      <DependentUpon>XtraForm1.cs</DependentUpon>
+    <Compile Include="frm_PhieuChi.Designer.cs">
+      <DependentUpon>frm_PhieuChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTC_DataSet.cs">
+      <DependentUpon>QLTC_DataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QLTC_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTC_DataSet.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="frmDkKhoanChi.resx">
       <DependentUpon>frmDkKhoanChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDoiMK.resx">
+      <DependentUpon>frmDoiMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQL_NguoiDung_NhomNguoiDung.resx">
+      <DependentUpon>frmQL_NguoiDung_NhomNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_CauHinh.resx">
       <DependentUpon>frm_CauHinh.cs</DependentUpon>
@@ -134,11 +183,23 @@
     <EmbeddedResource Include="frm_girddkkhoanchi.resx">
       <DependentUpon>frm_girddkkhoanchi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_LapPhieuChi.resx">
+      <DependentUpon>frm_LapPhieuChi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_LapPhieuThu.resx">
       <DependentUpon>frm_LapPhieuThu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_PhanQuyen.resx">
+      <DependentUpon>frm_PhanQuyen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_PhieuThu.resx">
       <DependentUpon>frm_PhieuThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_QL_NguoiDung.resx">
+      <DependentUpon>frm_QL_NguoiDung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_QL_NhomNguoiDung.resx">
+      <DependentUpon>frm_QL_NhomNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
@@ -160,8 +221,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="XtraForm1.resx">
-      <DependentUpon>XtraForm1.cs</DependentUpon>
+    <EmbeddedResource Include="frm_PhieuChi.resx">
+      <DependentUpon>frm_PhieuChi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -177,6 +238,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QLTC_DataSet.xsc">
+      <DependentUpon>QLTC_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLTC_DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTC_DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="QLTC_DataSet.xss">
+      <DependentUpon>QLTC_DataSet.xsd</DependentUpon>
+    </None>
     <None Include="Resources\login.png" />
   </ItemGroup>
   <ItemGroup>
@@ -303,6 +375,9 @@
     <None Include="Resources\Coin-Hand-512.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\users1.png" />
+    <None Include="Resources\users.png" />
+    <None Include="Resources\xoa.png" />
     <None Include="Resources\07_plus-128.png" />
     <None Include="Resources\062-512.png" />
     <None Include="Resources\010_x-5121.png" />
@@ -313,6 +388,8 @@
     <None Include="Resources\Button-Log-Off-icon %281%29.png" />
     <None Include="Resources\Clear-icon.png" />
     <None Include="Resources\Close-2-icon.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\9_avatar-5121.png" />
     <Content Include="Resources\delete.png" />
     <None Include="Resources\search1.png" />
     <None Include="Resources\them1.png" />
@@ -326,6 +403,32 @@
     <None Include="Resources\edit-validated-icon.png" />
     <None Include="Resources\Save-as-icon %281%29.png" />
     <None Include="Resources\search-minus-icon.png" />
+    <None Include="Resources\Money-5121.png" />
+    <None Include="Resources\eye.png" />
+    <None Include="Resources\key.png" />
+    <None Include="Resources\luu.png" />
+    <None Include="Resources\revert.png" />
+    <None Include="Resources\exit1.png" />
+    <None Include="Resources\eyee.png" />
+    <None Include="Resources\mem.png" />
+    <None Include="Resources\mem1.png" />
+    <None Include="Resources\mem - Copy.png" />
+    <None Include="Resources\nhom.png" />
+    <None Include="Resources\luu - Copy.png" />
+    <None Include="Resources\exit11.png" />
+    <None Include="Resources\nhom1.png" />
+    <None Include="Resources\nhom2.png" />
+    <None Include="Resources\nhom3.png" />
+    <None Include="Resources\nguoisudung1.png" />
+    <None Include="Resources\nhom4.png" />
+    <None Include="Resources\if_users_497224.png" />
+    <None Include="Resources\edittttt.png" />
+    <None Include="Resources\gr.png" />
+    <None Include="Resources\gr_mem.png" />
+    <None Include="Resources\nhom5.png" />
+    <None Include="Resources\nhom21.png" />
+    <None Include="Resources\nhom22.png" />
+    <None Include="Resources\nhomngdung.png" />
     <Content Include="Resources\search.png" />
     <Content Include="Resources\Technical_Support-512 %281%29.png" />
     <Content Include="Resources\them.png" />

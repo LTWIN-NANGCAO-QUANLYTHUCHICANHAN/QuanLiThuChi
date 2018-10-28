@@ -17,12 +17,12 @@ namespace QuanLyThuChi
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private LabelControl labelControl1;
         private GroupControl groupControl1;
         private SimpleButton simpleButton4;
         private SimpleButton simpleButton3;
         private SimpleButton simpleButton2;
         private SimpleButton btn_them;
+        private LabelControl labelControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
     
         public Page_DKkhoanthu()
@@ -37,12 +37,12 @@ namespace QuanLyThuChi
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.btn_them = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -94,17 +94,6 @@ namespace QuanLyThuChi
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.ImageAlignToText = DevExpress.XtraEditors.ImageAlignToText.TopCenter;
-            this.labelControl1.Location = new System.Drawing.Point(200, 12);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(266, 33);
-            this.labelControl1.TabIndex = 1;
-            this.labelControl1.Text = "ĐĂNG KÝ KHOẢN THU";
-            // 
             // groupControl1
             // 
             this.groupControl1.Appearance.Options.UseTextOptions = true;
@@ -144,7 +133,7 @@ namespace QuanLyThuChi
             // 
             // simpleButton2
             // 
-            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources._062_512;
+            this.simpleButton2.ImageOptions.Image = global::QuanLyThuChi.Properties.Resources.edittttt;
             this.simpleButton2.Location = new System.Drawing.Point(110, 18);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(80, 36);
@@ -161,16 +150,28 @@ namespace QuanLyThuChi
             this.btn_them.Text = "Thêm";
             this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
             // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Location = new System.Drawing.Point(208, 12);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(319, 35);
+            this.labelControl1.TabIndex = 4;
+            this.labelControl1.Text = "ĐĂNG KÝ KHOẢN THU";
+            // 
             // Page_DKkhoanthu
             // 
             this.Appearance.Options.UseTextOptions = true;
             this.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.ClientSize = new System.Drawing.Size(653, 446);
-            this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.labelControl1);
+            this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "Page_DKkhoanthu";
+            this.Text = "Đăng ký khoản thu";
+            this.Load += new System.EventHandler(this.Page_DKkhoanthu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
@@ -184,6 +185,11 @@ namespace QuanLyThuChi
         {
             frm_DangKyKhoanThu f = new frm_DangKyKhoanThu();
             f.Show();
+        }
+
+        private void Page_DKkhoanthu_Load(object sender, EventArgs e)
+        {
+
         }
 
        

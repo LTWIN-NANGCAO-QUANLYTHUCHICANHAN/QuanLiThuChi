@@ -12,11 +12,14 @@ using DevExpress.XtraBars;
 using System.ComponentModel.DataAnnotations;
 using DevExpress.UserSkins;
 using DevExpress.Skins;
+using System.Collections;
+using DevExpress.XtraBars.Ribbon;
 namespace QuanLyThuChi
 {
 
     public partial class MainForm : DevExpress.XtraBars.Ribbon.RibbonForm
     {
+        LoginResult NguoiDung = new LoginResult();
 
         public MainForm()
         {
@@ -70,11 +73,95 @@ namespace QuanLyThuChi
         {
 
         }
+        string _TenDangNhap = LogIn.GetUserName.userNAME;
 
         private void MainForm_Load(object sender, EventArgs e)
         {
             DevExpress.UserSkins.BonusSkins.Register();
+            List<string> nhomND = NguoiDung.GetMaNhomNguoiDung(_TenDangNhap);
+
+            foreach (string item in nhomND)
+            {
+                DataTable dsQuyen = NguoiDung.GetMaManHinh(item);
+                foreach (DataRow mh in dsQuyen.Rows)
+                {
+                    FindMenuPhanQuyen(ribbonControl, mh[1].ToString(), Convert.ToBoolean(mh[2].ToString()));
+
+                }
+            }
         }
+
+        private void FindMenuPhanQuyen(RibbonControl ribControl, string pScreen, bool pEnable)
+        {
+            foreach (RibbonPage ribPage in ribbonControl.Pages)
+            {
+                foreach (RibbonPageGroup ribGroup in ribPage.Groups)
+                {
+                    foreach (BarItemLink barItem in ribGroup.ItemLinks)
+                    {
+                        object kq = barItem.Item.Tag;
+                        if (kq != null)
+                        {
+                            if (barItem.Item.Tag.ToString().CompareTo(pScreen) == 0 && pEnable == false)
+                                barItem.Item.Visibility = BarItemVisibility.Never;
+                        }
+                    }
+                }
+            }
+        }
+
+        //private void VisibleMenu(ArrayList Roles, RibbonControl ribControl)
+        //{
+        //    foreach (RibbonPage ribPage in ribControl.Pages)
+        //    {
+        //        int PageGroup = 0;
+        //        foreach (RibbonPageGroup ribPageGroup in ribPage.Groups)
+        //        {
+        //            int CountBarItem = 0;
+        //            foreach (BarItemLink barItem in ribPageGroup.ItemLinks)
+        //            {
+        //                if (barItem.GetType() == typeof(BarSubItemLink))
+        //                {
+        //                    BarSubItemLink bsi = (BarSubItemLink)(barItem);
+        //                    foreach (BarItemLink barItemLink in bsi.VisibleLinks)
+        //                    {
+        //                        foreach (String strValue in barItemLink.Item.Tag.ToString().Split('|'))
+        //                        {
+        //                            if (Roles.Contains(strValue))
+        //                            {
+        //                                barItemLink.Item.Visibility = BarItemVisibility.Always;
+        //                                PageGroup = 1;
+        //                                CountBarItem = 1;
+
+        //                            }
+        //                        }
+        //                    }
+        //                    if (CountBarItem == 1)
+        //                    {
+        //                        barItem.Item.Visibility = BarItemVisibility.Always;
+        //                        PageGroup = 1;
+        //                    }
+
+
+        //                }
+        //                else
+        //                {
+        //                    if (Roles.Contains(barItem.Item.Tag))
+        //                    {
+        //                        barItem.Item.Visibility = BarItemVisibility.Always;
+        //                        PageGroup = 1;
+        //                    }
+        //                }
+        //            }
+        //            if (PageGroup == 1)
+        //            {
+        //                ribPage.Visible = true;
+        //                ribPageGroup.Visible = true;
+        //            }
+        //        }
+        //    }
+        //}
+
 
         private void btnphieuthu_ItemClick(object sender, ItemClickEventArgs e)
         {
@@ -90,6 +177,64 @@ namespace QuanLyThuChi
             pg.Show();
         }
 
+        private void btndkhangmucthu_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frm_girddkkhoanchi pg = new frm_girddkkhoanchi();
+            pg.MdiParent = this;
+            pg.Show();
+        }
 
+        private void btnPhieuChi_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frm_LapPhieuChi frm = new frm_LapPhieuChi();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem10_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frmDoiMK frmdoimk = new frmDoiMK();
+            //frmdoimk.ShowDialog();
+            frmdoimk.MdiParent = this;
+            frmdoimk.Show();
+        }
+
+       
+
+        private void btnDangNhap_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frm_QL_NguoiDung frm = new frm_QL_NguoiDung();
+            frm.MdiParent = this;
+            frm.Show();
+            StartPosition = FormStartPosition.CenterParent;
+        }
+
+        private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frm_PhanQuyen frm = new frm_PhanQuyen();
+            frm.MdiParent = this;
+            frm.Show();
+            StartPosition = FormStartPosition.CenterParent;
+        }
+
+        private void barButtonItem19_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frm_QL_NhomNguoiDung frm = new frm_QL_NhomNguoiDung();
+            frm.MdiParent = this;
+            frm.Show();
+            StartPosition = FormStartPosition.CenterParent;
+        }
+
+        private void barButtonItem20_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            frmQL_NguoiDung_NhomNguoiDung frm = new frmQL_NguoiDung_NhomNguoiDung();
+            frm.MdiParent = this;
+            frm.Show();
+            StartPosition = FormStartPosition.CenterParent;
+        }
+
+        
+
+        
     }
 }

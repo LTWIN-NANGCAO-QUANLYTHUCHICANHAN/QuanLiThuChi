@@ -22,11 +22,20 @@ namespace QuanLyThuChi
         {
             DataTable dt = CauHinh.GetServerName();
             cb_Server.Items.Clear();
+            string s1, s2, kq;
+
+            s1 = dt.Rows[0].ItemArray[0].ToString();
+            s2 = dt.Rows[0].ItemArray[1].ToString();
+
+            kq = s1 + "\\" + s2;
+
+            cb_Server.Items.Add(kq);
+
             foreach (System.Data.DataRow row in dt.Rows)
             {
                 foreach (System.Data.DataColumn col in dt.Columns)
                 {
-                    cb_Server.Items.Add(row[col]);
+                    cb_Server.Items.Add(row[col]);   
                 }
             }
 

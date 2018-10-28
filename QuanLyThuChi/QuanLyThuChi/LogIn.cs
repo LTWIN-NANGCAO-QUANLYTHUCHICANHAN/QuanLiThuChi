@@ -19,8 +19,14 @@ namespace QuanLyThuChi
         }
         LoginResult CauHinh = new LoginResult();
 
+        public class GetUserName
+        {
+            public static string userNAME;
+        }
+
         private void btn_login_Click(object sender, EventArgs e)
         {
+            GetUserName.userNAME = txt_Username.Text;
 
             if (string.IsNullOrEmpty(txt_Username.Text.Trim()))
             {
@@ -94,5 +100,6 @@ namespace QuanLyThuChi
                 e.Cancel = true;
         }
 
+        
     }
 }

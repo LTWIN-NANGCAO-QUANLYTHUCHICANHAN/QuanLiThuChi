@@ -18,6 +18,12 @@ namespace QuanLyThuChi
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmDkKhoanChi frm = new frmDkKhoanChi();
+            frm.Show();
+        }
+
       
     }
 }
